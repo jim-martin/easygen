@@ -430,7 +430,7 @@ class CharRNN_Run(Module):
 
 ###############################
 
-'''
+
 class GPT2_Load(Module):
 
     def __init__(self, model_size, model_out):
@@ -444,7 +444,7 @@ class GPT2_Load(Module):
         if os.path.exists(self.model_out):
             shutil.rmtree(self.model_out)
         shutil.copytree(gpt_path, self.model_out)
-'''
+
 
 class GPT2_FineTune(Module):
 
